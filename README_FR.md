@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/Palks_Studio.png" alt="VS Code Pack - Palks Studio">
+  <img src="docs/images/Palks_Studio.png" alt="Palks Studio">
 </p>
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)
@@ -12,6 +12,14 @@
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
     <img src="https://img.shields.io/badge/Télécharger%20sur-Gumroad-orange?style=for-the-badge" alt="Télécharger sur Gumroad">
+  </a>
+  &nbsp;&nbsp;
+  <a href="http://palks-studio.itch.io" target="_blank">
+    <img src="https://img.shields.io/badge/Disponible%20sur-Itch.io-blue?style=for-the-badge" alt="Disponible sur Itch.io">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://ko-fi.com/palksstudio" target="_blank">
+    <img src="https://img.shields.io/badge/Acheter%20sur-Ko%E2%80%93fi-ff5f5f?style=for-the-badge" alt="Acheter sur Ko-fi">
   </a>
 </p>
 
@@ -119,9 +127,9 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 - Exemples avant/après, vidéos de démonstration, support Discord
 
 **Version complète disponible ici**
-- Gumroad : https://palks.gumroad.com  
-- Itch.io : http://palks-studio.itch.io  
-- Ko-Fi : https://ko-fi.com/palksstudio
+- [Gumroad](https://palks.gumroad.com)  
+- [Itch.io](https://palks-studio.itch.io)  
+- [Ko-fi](https://ko-fi.com/palksstudio)
 
 ### Important — Comportement des scripts (version complète uniquement)
 
@@ -136,12 +144,10 @@ Les scripts de formatage (`clean.py`, `convert.py`, `space.py`) ne modifient pas
 Avant toute modification, un dossier `_backups/` est créé pour sauvegarder les fichiers d’origine.
 
 **À propos du formatage Python**
-
 Le formatage automatique Python via autopep8 ne fonctionne que si tu exécutes la tâche correspondante dans VS Code (Menu “Exécuter une tâche…”).
 Cette action ne s’applique qu’au fichier Python actuellement ouvert, jamais à l’ensemble du projet.
 
 **Reindentation manuelle (Ctrl + A puis Ctrl + R)**
-
 Applique une réindentation uniquement sur le fichier actif (`HTML`, `CSS`, `JS`, `JSON`, etc.)
 Exception : les fichiers `.py` ne sont pas réindentés par cette action — ils utilisent autopep8 à la place.
 
@@ -174,4 +180,4 @@ Simplicité, clarté, efficacité.
 - Discord : https://discord.gg/kzrSyThyZ7  
 - Twitter (X) : https://x.com/PalksStudio  
 - Itch.io : http://palks-studio.itch.io  
-- Ko-Fi : https://ko-fi.com/palksstudio
+- Ko-fi : https://ko-fi.com/palksstudio
