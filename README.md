@@ -36,9 +36,7 @@ Previous GitHub demo versions have been cleaned and replaced with this unified, 
 ---
 
 A clean, ready-to-use setup for Visual Studio Code that keeps your files consistent, properly indented and organized — without relying on Prettier, external extensions, or custom scripts per project.
-
 This package contains the public preview version of the pack.
-The full version (with ready-to-use scripts: clean.py, convert.py, space.py, automation tasks, installation guide, demos…) is available on Gumroad, Itch or Ko-Fi.
 
 ## What this pack does:
 
@@ -191,4 +189,3 @@ Simplicity, clarity, efficiency.
 - Twitter (X): https://x.com/PalksStudio  
 - Itch.io: http://palks-studio.itch.io  
 - Ko-fi: https://ko-fi.com/palksstudio
-
