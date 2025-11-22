@@ -40,7 +40,7 @@ A clean, ready-to-use setup for Visual Studio Code that keeps your files consist
 This package contains the public preview version of the pack.
 The full version (with ready-to-use scripts: clean.py, convert.py, space.py, automation tasks, installation guide, demos…) is available on Gumroad, Itch or Ko-Fi.
 
-What this pack does:
+## What this pack does:
 
 - Automatically keeps your code clean, aligned, and consistent  
 - Works with Python, HTML, CSS, JS, and JSON  
@@ -135,7 +135,6 @@ The `.mp4` files in this folder (convert_lf.mp4, indent_clean.mp4, etc.) are int
   - before/after examples, demo videos, Discord support  
 
 **Full version available here**
-
 - [Gumroad](https://palks.gumroad.com)  
 - [Itch.io](https://palks-studio.itch.io)  
 - [Ko-fi](https://ko-fi.com/palksstudio)
