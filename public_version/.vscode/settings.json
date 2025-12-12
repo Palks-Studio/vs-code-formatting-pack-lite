@@ -1,7 +1,4 @@
 {
-    // ==============================
-    // GLOBAL EDITOR SETTINGS (LITE)
-    // ==============================
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
@@ -14,10 +11,6 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
 
-    // ==============================
-    // LANGUAGE-SPECIFIC (NEUTRAL)
-    // No formatter, no automation
-    // ==============================
     "[python]": {
         "editor.formatOnSave": false,
         "editor.defaultFormatter": null,
@@ -42,9 +35,6 @@
         "editor.tabSize": 4
     },
 
-    // ==============================
-    // FILE TYPES
-    // ==============================
     "files.associations": {
         "*.py": "python"
     }
