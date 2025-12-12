@@ -2,24 +2,26 @@
 VSCode_Formatting_Pack/
 │
 ├── .vscode/
-│   ├── extensions.json                 ← Local deactivation of extensions (Prettier, RunOnSave)
-│   ├── launch.json                     ← Quick run of the currently active Python script
-│   ├── settings.json                   ← Full VS Code configuration (indentation, LF, UTF-8, comfort)
-│   ├── keybindings.json                ← Shortcuts: Alt + M (minimap), Alt + R (reindent)
-│   └── tasks.json                      ← Tasks:
-│                                           - Python Formatting + Margin Cleaning (autopep8 + Margin Cleanup)
-│                                           - Margin Cleaning (clean.py)
-│                                           - Margin Detection (space.py)
-│                                           - CRLF → LF Conversion (convert.py)
+│   ├── extensions.json                 ← Local disabling of conflicting extensions (Prettier, RunOnSave)
+│   ├── launch.json                     ← Quick execution of the active Python script
+│   ├── settings.json                   ← Complete VS Code settings (indentation, LF, UTF-8, editor comfort)
+│   ├── keybindings.json                ← Shortcuts: Alt + M (minimap), Alt + R (re-indentation)
+│   └── tasks.json                      ← VS Code tasks (manually executable):
+│                                           - Python Formatting + Margin Cleanup
+│                                             (autopep8 + clean.py, active file)
+│                                           - Margin Cleanup (clean.py — global / active file / custom selection)
+│                                           - Margin Detection (space.py — read-only analysis)
+│                                           - CRLF → LF Conversion (convert.py — global / active file / custom selection)
 │
-├── clean.py                            ← General cleanup (spaces, blank lines, quotes, normalization)
-├── convert.py                          ← Convert all CRLF to LF across the project
-├── space.py                            ← Detect unnecessary margins (extra spaces + blank lines)
-├── backup.py                           ← Creates timestamped per-file backups on each save (no extension required)
+├── clean.py                            ← General margin and whitespace cleanup
+├── convert.py                          ← Line ending normalization (CRLF → LF)
+├── space.py                            ← Margin analysis (read-only)
+├── backup.py                           ← Timestamped backup of the file on save (Ctrl + S)
+│                                         via the Auto-Backup task
 │
-├── LICENSE.txt                         ← Palks Studio Proprietary License
-├── INSTALL.md                          ← Installation & usage guide
-├── README_COMMERCIAL.md                ← Commercial product presentation
+├── LICENCE.txt                         ← Proprietary license (Palks Studio)
+├── INSTALL.md                          ← Installation and usage guide
+├── README_COMMERCIAL.md                ← Product commercial overview
 │
 └── docs/
     ├── TECHNICAL_README.md             ← Internal notes, maintenance, future versions
@@ -29,6 +31,7 @@ VSCode_Formatting_Pack/
         ├── convert_lf.mp4              ← CRLF files automatically converted to LF
         ├── indent_clean.mp4            ← Broken indentation/margins fixed instantly
         ├── indent_python.mp4           ← Badly indented Python file auto-corrected
-        ├── backup.mp4                  ← demonstrates automatic file backup on each save (Ctrl+S) and how to restore a deleted file from the backup folder
-        └── space_clean.mp4             ← Broken file analyzed + margins auto-cleaned
+        ├── backup.mp4                  ← Demonstrates automatic file backup on each save (Ctrl + S)
+        │                                 and how to restore a deleted file from the backup folder
+        └── space_clean.mp4             ← Broken file analyzed and margins detected (read-only)
 ```
