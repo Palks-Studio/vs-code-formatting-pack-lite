@@ -29,12 +29,12 @@
 
 A lightweight, read-only preview of the VS Code Formatting Pack by **Palks Studio**.
 
-This Lite version provides a **passive and non-destructive environment**
-designed to showcase the philosophy and structure of the full pack,
+This Lite version provides a **passive and non-destructive environment**  
+designed to showcase the philosophy and structure of the full pack,  
 without modifying any files.
 
-No formatting.
-No cleanup.
+No formatting.  
+No cleanup.  
 No automation.
 
 ---
@@ -47,7 +47,7 @@ VSCode_Formatting_Pack/ (Lite Version)
 │   ← Public documentation for the Lite version
 │     (limited scope, no file modification)
 │
-├── LICENCE.txt
+├── LICENCE_EN.md
 │   ← Proprietary license – Palks Studio
 │
 ├── public_version/
@@ -143,7 +143,7 @@ This task:
 - Reports findings in the terminal  
 - **Never modifies any file**
 
-It is intended to help you **observe** formatting issues,
+It is intended to help you **observe** formatting issues,  
 not to fix them.
 
 ---
@@ -182,8 +182,8 @@ The **Pro version** includes:
 - Multiple execution modes (global / active file / custom selection)  
 - Full documentation and real usage examples
 
-The Lite version is intentionally limited
-to preserve a clear and honest boundary.
+The Lite version is intentionally limited  
+to preserve a clear and honest boundary.  
 This ensures a transparent and predictable evaluation experience.
 
 ---
@@ -196,26 +196,9 @@ This ensures a transparent and predictable evaluation experience.
 - No external services  
 - Works fully offline
 
----
-
-## Credits & License
-
-This pack is an original creation by **Palks Studio**.
-Resale, redistribution or public modification without permission is prohibited.
-Personal and professional use is allowed.
-
-**Palks Studio**
-Independent creator of useful, autonomous digital tools.
-
-- GitHub: https://github.com/Palks-Studio  
-- Gumroad: https://palks.gumroad.com  
-- Itch.io: http://palks-studio.itch.io  
-- Ko-fi: https://ko-fi.com/palksstudio  
-- Twitter (X): https://x.com/Palks_Studio
-
----
-
 ## Signature
 
 **Palks Studio — Version 1.1**  
 Compatible with Visual Studio Code (Prettier disabled by default).
+
+© Palks Studio — see LICENSE_EN.md
