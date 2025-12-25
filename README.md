@@ -7,7 +7,7 @@
 ![Made for VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
 ![Platform](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
-![License](https://img.shields.io/badge/License-LICENSE_EN.md-lightgreen.svg)
+![License](https://img.shields.io/badge/License-LICENSE.md-lightgreen.svg)
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
@@ -43,41 +43,34 @@ No automation.
 
 ```
 VSCode_Formatting_Pack/ (Lite Version)
-├── README.md
-│   ← Public documentation for the Lite version
-│     (limited scope, no file modification)
-│
-├── LICENCE_EN.md
-│   ← Proprietary license – Palks Studio
+├── README.md                 ← Public documentation for the Lite version
+│                             (limited scope, no file modification)
+│   
+├── LICENSE.md                ← Terms of use and legal framework
 │
 ├── public_version/
 │   └── .vscode/
-│       ├── settings.json
-│       │   ← Passive editor settings
-│       │     - UTF-8 encoding
-│       │     - LF line endings
-│       │     - visual indentation (4 spaces)
-│       │     - visible whitespace boundaries
-│       │     - no automatic formatting
+│       ├── settings.json    ← Passive editor settings
+│       │                      - UTF-8 encoding
+│       │                      - LF line endings
+│       │                      - visual indentation (4 spaces)
+│       │                      - visible whitespace boundaries
+│       │                      - no automatic formatting
 │       │
-│       ├── keybindings.json
-│       │   ← Single shortcut:
-│       │     Alt + M → toggle the minimap
+│       ├── keybindings.json ← Single shortcut:
+│       │                      Alt + M → toggle the minimap
 │       │
-│       └── tasks.json
-│           ← VS Code task (read-only):
-│             - Margin detection
-│             - analyzes whitespace and margins
-│             - no file is ever modified
+│       └── tasks.json       ← VS Code task (read-only):
+│                              - Margin detection
+│                              - analyzes whitespace and margins
+│                              - no file is ever modified
 │
-├── example_structure.txt
-│   ← Overview of the full (Pro) version structure
-│     and available features
+├── example_structure.txt    ← Overview of the full (Pro) version structure
+│                            and available features
 │
 └── docs/
     └── images/
-        └── Palks_Studio.png
-            ← Proprietary branding asset
+        └── Palks_Studio.png ← Proprietary branding asset
 ```
 
 
@@ -201,6 +194,5 @@ This ensures a transparent and predictable evaluation experience.
 **Palks Studio — Version 1.1**  
 Compatible with Visual Studio Code (Prettier disabled by default).
 
+© Palks Studio — see LICENSE.md
 - https://palks-studio.com
-
-© Palks Studio — see LICENSE_EN.md
