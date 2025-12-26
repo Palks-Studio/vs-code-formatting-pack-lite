@@ -1,3 +1,3 @@
-def   addition ( a,b ):
+def   addition ( a  ,     b ):
    resultat= a+  b
-   print(  "Resultat :",resultat )
+         print(  "Resultat :",   resultat )
