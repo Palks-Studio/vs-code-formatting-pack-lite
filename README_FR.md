@@ -42,7 +42,7 @@ Aucune automatisation.
 ## Structure (Version publique)
 
 ```
-vcsode_pack_formatage_lite/
+vcsode_pack_formatage_lite_v1.1/
 ├── README.md                 ← Documentation publique de la version Lite
 │                             (périmètre limité, aucune modification de fichiers)
 │
