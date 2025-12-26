@@ -42,7 +42,7 @@ No automation.
 ## Structure (Public version)
 
 ```
-vscode_formatting_pack_lite/
+vscode_formatting_pack_lite_v1.1/
 ├── README.md                 ← Public documentation for the Lite version
 │                             (limited scope, no file modification)
 │   
